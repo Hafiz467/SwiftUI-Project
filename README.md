@@ -1,4 +1,10 @@
-# SwiftUI-Project
+# SwiftUI Project
+
+This project is a SwiftUI application that demonstrates a list of items with various functionalities such as adding, editing, deleting, and viewing details. The project also includes a page tab view and context menus for additional actions.
+
+## Code
+
+```swift
 import SwiftUI
 
 struct ContenntView: View {
@@ -210,7 +216,6 @@ struct PageTabView: View {
                         .padding()
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-//                .background(LinearGradient(gradient: Gradient(colors: [Color.purple, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
                 .cornerRadius(15)
                 .padding()
             }
